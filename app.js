@@ -18,5 +18,5 @@ app.listen(port, () => {
 // Resondiendo texto
 // localhost:3000/launchx
 app.get('/launchx', (req, res) => {
-    res.send('Bienvenidos a Launchx')
+    res.send('Welcome to LaunchX')
 })
